@@ -101,5 +101,7 @@ body {
 p {
     font-size: 2em;
     padding: 1em;
-    color: #ffbf00;
+    color: #FFCDC2;
+    max-width: 40em;
+    line-height: 1.5em;
 }
