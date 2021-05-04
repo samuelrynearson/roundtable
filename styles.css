@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 35em;
+    font-size: 32em;
     height: 100vh;
     color: #363636;
     flex-wrap: nowrap;
@@ -101,7 +101,7 @@ body {
 p {
     font-size: 2em;
     padding: 1em;
-    color: #FFCDC2;
+    color: #e1ff5b;
     max-width: 40em;
     line-height: 1.5em;
 }
