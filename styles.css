@@ -1,12 +1,63 @@
 body {
     margin: 0;
     font-family: 'IBM Plex Sans', sans-serif;  
+    background-color: #FCE7FF;
   }
 
   .center-me {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20em;
+    font-size: 30em;
+    height: 100vh;
+    color: #363636;
+    flex-wrap: nowrap;
+  }
+
+  .small {
+    font-size: 5em;
+  }
+
+  .center-me-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12em;
     height: 100vh;
   }
+  a {
+    padding: .05em;
+  }
+
+  a:link {
+    color:#363636;
+    text-decoration: none;
+    padding: .5em;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #363636;
+    text-decoration: none;
+    padding: .05em;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #363636;
+    text-decoration: none;
+    padding: .05em;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #363636;
+    text-decoration: none;
+    padding: .05em;
+  }
+
+.links {
+    font-size: .07em;
+    display: block;
+    
+}
