@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40em;
+    font-size: 35em;
     height: 100vh;
     color: #363636;
     flex-wrap: nowrap;
@@ -29,7 +29,7 @@ body {
     height: 100vh;
     color: #FCE7FF;
     flex-wrap: nowrap;
-    background-color: #CAAB5D;
+    background-color: #ffbf00;
   }
 
   .small {
@@ -89,11 +89,17 @@ body {
 }
 
 #a {
-    color: #CAAB5D;
+    color: #ffbf00;
     font-weight: 400;
 
 }
 
 #a:hover {
     color: #92ff8f;
+}
+
+p {
+    font-size: 2em;
+    padding: 1em;
+    color: #ffbf00;
 }
