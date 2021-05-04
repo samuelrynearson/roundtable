@@ -1,5 +1,8 @@
 html {
     scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
   }
 
 body {
@@ -12,7 +15,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30em;
+    font-size: 50em;
     height: 100vh;
     color: #363636;
     flex-wrap: nowrap;
@@ -26,7 +29,7 @@ body {
     height: 100vh;
     color: #FCE7FF;
     flex-wrap: nowrap;
-    background-color: #363636;
+    background-color: #CAAB5D;
   }
 
   .small {
@@ -40,43 +43,57 @@ body {
     font-size: 12em;
     height: 100vh;
   }
-  a {
-    padding: .05em;
-  }
+  /* a {
+    padding: .08em;
+  } */
 
   a:link {
     color:#FCE7FF;
     text-decoration: none;
-    padding: .5em;
+    font-weight: 200;
+    
   }
   
   /* visited link */
   a:visited {
     color: #FCE7FF;
     text-decoration: none;
-    padding: .05em;
+    
   }
   
   /* mouse over link */
   a:hover {
-    color: #FCE7FF;
+    color: #92ff8f;
     text-decoration: none;
-    padding: .05em;
+    
+    
   }
   
   /* selected link */
   a:active {
     color: #FCE7FF;
     text-decoration: none;
-    padding: .05em;
+    
   }
 
 .links {
-    font-size: .07em;
+    font-size: .05em;
     display: block;
     color: #FCE7FF;
+
+}
+
+.links a{
+    margin: .7em;
+    
 }
 
 #a {
-    color: #363636;
+    color: #CAAB5D;
+    font-weight: 400;
+
+}
+
+#a:hover {
+    color: #92ff8f;
 }
