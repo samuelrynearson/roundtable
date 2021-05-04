@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 32em;
+    font-size: 25em;
     height: 100vh;
     color: #363636;
     flex-wrap: nowrap;
